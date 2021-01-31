@@ -128,7 +128,7 @@ align-items: center;
 
  .social i {
      color: rgba(18,17,17,0.4);
-     font-size: 14px;
+     font-size: 24px;
  }
 
  .social a:hover i {
@@ -310,6 +310,7 @@ align-items: center;
     align-items: center;
     padding: 70px 2% 20px 2%;
     background-color: #161616;
+    height: 900px;
 }
 
 .p-heading {
@@ -355,9 +356,7 @@ align-items: center;
     background-color: rgba(23,209,172,0.89);
     display: none;
 }
-.text-overlay h1,p {
-    color: #FFFFFF;
-}
+
 .text-overlay h1 {
     font-size: 2.2rem;
     margin: 0;
@@ -379,48 +378,11 @@ align-items: center;
     height: 100%;
     object-fit: cover;
 }
-#contact-btn h1 {
-    font-size: 2rem;
-    color: #1e1e1e;
-    font-family: calibri;
-    margin: 10px;
-    padding: 5px;
-    letter-spacing: 4px;
-    border-bottom: 2px solid #1E1E1E;
+#contact {
+    background-color: #edf1fd;
 }
-
-#contact-btn {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 200px;
-    background-color: #f4f7ff;
-    margin: 20px 0px;
-    box-sizing: border-box;
-    box-shadow: 2px  0px 20px rgba(0,0,0,0.4);
-}
-
-#contact-btn a {
-    color: #FFFFFF;
-    font-size: 1rem;
-    font-family: calibri;
-    width: 150px;
-    height: 40px;
-    margin: 10px;
-    background-color: #1e1e1e;
-    box-shadow: 2px 5px 6px rgba(0,0,0,0.2);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#contact-btn a:hover {
-    background-color: #17d1ac;
-    color: #000000;
-    transition: all ease 0.5s;
-    font-weight: 700;
+#contact i {
+    color: #17d1ac;
 }
 
 footer {
@@ -495,18 +457,13 @@ footer {
         height: auto;
         grid-gap: 10px;
     }
-    #contact-btn h1 {
-        font-size: 1.4rem;
-        text-align: center;
+    #portfolio {
+        height: 1000px;
     }
 }
 @media(max-width:600px){
     .p-b-container {
         grid-template-columns: 1fr;
-    }
-    #contact-btn h1 {
-        font-size: 1.2rem;
-        margin: 0px 10%;
     }
     .name {
         width: 60%;
@@ -526,5 +483,8 @@ footer {
     }
     .cv-btn {
         margin-top: 20px;
+    }
+    #portfolio {
+        height: 2300px;
     }
 }
