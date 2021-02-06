@@ -195,6 +195,9 @@ align-items: center;
     color: rgba(251,251,251,0.90);
     padding-left: 30px;
 }
+.about-model {
+    margin-top: 1500px;
+}
 
 #services{
     width: 100%;
